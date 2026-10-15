@@ -1,1 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do list tracker</title>
+    <link rel="stylesheet" href="style.css">
 
+</head>
+<body>
+    <div class="main">
+        <div class="todo">
+            <div class="status">
+                <span id="remaining"><span id="remain">0</span> pending...</span>
+
+                <span id="completed"><span id="complete">0</span> completed</span>
+            </span>
+
+            </div>
+            <h2>To do list tracker</h2>
+            <div class="list">
+                <input type="text" placeholder="Add a task" id="input">
+                <button onclick="addtask()" class="btn1">Add</button>
+            </div>
+            <ul id="list-container">
+                
+
+            </ul>
+                <div class="clearr"><button class="clear" id="clear-button">Clear All</button></div>
+                <div class="colors">
+                <button class="btn fi" id="my1" onclick="changeColor()"></button>
+                <button class="btn se" id="my2" onclick="changeColoor()"></button>
+                 
+                </div>
+
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
